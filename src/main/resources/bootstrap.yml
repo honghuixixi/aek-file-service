@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: aek-fileserver-api
+  cloud:
+    config:
+      uri: http://admin:aek56.cc@dev.aek.com:8761/config/
+      label: develop
+  profiles:
+    active: default
